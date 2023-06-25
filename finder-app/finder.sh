@@ -16,7 +16,7 @@ if [ $# -eq 2 ]; then
 	exit 0
     fi
 else
-    echo "ERROR: Missing argument\nNumber of arguments supported 2"
+    echo "ERROR: Missing argument!!\nNumber of arguments supported 2"
     echo "Supported arguments:\n1. Directory path \n2. Search string."
     exit 1
 fi

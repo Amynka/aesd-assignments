@@ -14,7 +14,7 @@ if [ $# -eq 2 ]; then
     fi
     exit 0
 else
-    echo "ERROR: Missing argument\nNumber of arguments supported 2"
+    echo "ERROR: Missing argument!!\nNumber of arguments supported 2"
     echo "Supported arguments:\n1. Path where to write file \n2. Content to write."
     exit 1
 fi
